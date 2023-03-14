@@ -4,8 +4,8 @@ import "./TitleShow.css";
 
 function TitleShow({ title }) {
   return (
-    <div className="titleshow-container">
-      <p className="titleshow-title">{title}</p>
+    <div className="title_show--container">
+      <p className="title_show--title">{title}</p>
     </div>
   );
 }

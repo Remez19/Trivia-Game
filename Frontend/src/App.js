@@ -20,6 +20,14 @@ const router = createBrowserRouter([
           </React.Suspense>
         ),
       },
+      {
+        path: "/new-game",
+        element: (
+          <React.Suspense>
+            <HomePage />
+          </React.Suspense>
+        ),
+      },
     ],
   },
 ]);

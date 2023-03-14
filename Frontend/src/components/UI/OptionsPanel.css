@@ -1,0 +1,33 @@
+.options_panel--container {
+  display: flex;
+  width: 60%;
+  height: 35%;
+  max-width: 33rem;
+  justify-content: center;
+  flex-direction: column;
+  animation: actionPanelSlideUp 0.8s ease-in forwards;
+}
+
+.options_panel--btn {
+  height: 3rem;
+  background-color: rgb(33, 37, 41);
+  border-color: var(--main-purple);
+  color: var(--main-yellow);
+}
+
+.options_panel--btn:hover {
+  background-color: rgba(33, 37, 41, 0.905);
+  border-color: var(--main-yellow);
+  color: var(--main-purple);
+}
+
+@keyframes actionPanelSlideUp {
+  from {
+    transform: translateY(200%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}

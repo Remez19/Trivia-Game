@@ -1,4 +1,4 @@
-.titleshow-container {
+.title_show--container {
   background-color: rgb(33, 37, 41);
   border: 2px solid var(--main-purple);
   border-radius: 10px;
@@ -10,10 +10,10 @@
   margin-top: 0.3rem;
   justify-content: center;
   align-items: center;
-  animation: titleShowSlide 0.5s ease-in forwards;
+  animation: titleShowSlide 0.8s ease-in forwards;
 }
 
-.titleshow-title {
+.title_show--title {
   margin: 0;
   animation: titleColor 1s ease-in-out infinite alternate-reverse;
 }
