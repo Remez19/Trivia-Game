@@ -1,0 +1,8 @@
+.link-container {
+  color: var(--main-yellow);
+}
+
+.link-container:hover,
+.link-container:focus {
+  color: var(--main-purple);
+}

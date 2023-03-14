@@ -1,0 +1,6 @@
+.header-container {
+  color: var(--main-yellow);
+}
+.header-container:hover {
+  color: var(--main-purple);
+}
