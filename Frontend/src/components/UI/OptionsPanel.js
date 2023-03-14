@@ -4,13 +4,17 @@ import ButtonGroup from "react-bootstrap/ButtonGroup";
 
 import "./OptionsPanel.css";
 
-function OptionsPanel({ options }) {
+function OptionsPanel({ options, vertical, buttonSize }) {
   return (
     <div className="options_panel--container">
-      <ButtonGroup vertical style={{ backgroundColor: "transparent" }}>
+      <ButtonGroup
+        vertical={vertical}
+        style={{ backgroundColor: "transparent", flexWrap: "warp" }}
+      >
         {options.map((option, i) => {
           return (
             <Button
+              style={{ width: buttonSize, height: buttonSize }}
               className="options_panel--btn"
               key={i}
               onClick={option.action}

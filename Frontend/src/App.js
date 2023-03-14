@@ -5,6 +5,7 @@ import "./App.css";
 import RootLayout from "./components/Pages/RootLayout";
 import HomePage from "./components/Pages/HomePage";
 import ErrorPage from "./components/Pages/ErrorPage";
+import NewGamePage from "./components/Pages/NewGamePage";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
         path: "/new-game",
         element: (
           <React.Suspense>
-            <HomePage />
+            <NewGamePage />
           </React.Suspense>
         ),
       },

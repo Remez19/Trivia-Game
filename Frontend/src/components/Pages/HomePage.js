@@ -12,6 +12,7 @@ function HomePage() {
     <main className="home_page-container">
       <TitleShow title={"Hello And Welcome!"} />
       <OptionsPanel
+        vertical={true}
         options={[
           {
             text: "New Game",
