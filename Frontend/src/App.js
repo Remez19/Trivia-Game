@@ -6,6 +6,7 @@ import RootLayout from "./components/Pages/RootLayout";
 import HomePage from "./components/Pages/HomePage";
 import ErrorPage from "./components/Pages/ErrorPage";
 import NewGamePage from "./components/Pages/NewGamePage";
+import GamePage from "./components/Pages/GamePage";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,14 @@ const router = createBrowserRouter([
         element: (
           <React.Suspense>
             <NewGamePage />
+          </React.Suspense>
+        ),
+      },
+      {
+        path: "/new-game/:category",
+        element: (
+          <React.Suspense>
+            <GamePage />
           </React.Suspense>
         ),
       },

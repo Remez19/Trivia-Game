@@ -3,10 +3,10 @@
   border: 2px solid var(--main-purple);
   border-radius: 10px;
   width: 70%;
+  min-height: 4rem;
   max-width: 26rem;
   display: flex;
   padding: 0.5rem;
-  height: 3rem;
   margin-top: 0.3rem;
   justify-content: center;
   align-items: center;
@@ -14,6 +14,7 @@
 }
 
 .title_show--title {
+  color: var(--main-yellow);
   margin: 0;
   animation: titleColor 1s ease-in-out infinite alternate-reverse;
 }
@@ -21,11 +22,11 @@
 @keyframes titleColor {
   from {
     color: var(--main-yellow);
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   to {
     color: var(--main-purple);
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 

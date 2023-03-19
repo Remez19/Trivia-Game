@@ -27,6 +27,12 @@ function HomePage() {
             },
           },
           {
+            text: "Rules",
+            action: () => {
+              console.log("Rules");
+            },
+          },
+          {
             text: "Login",
             action: () => {
               console.log("Login");
